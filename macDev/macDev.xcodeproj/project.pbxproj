@@ -12,6 +12,10 @@
 		40F920B71FBC8AF900E4E0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F920B61FBC8AF900E4E0FE /* Assets.xcassets */; };
 		40F920BA1FBC8AF900E4E0FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F920B81FBC8AF900E4E0FE /* Main.storyboard */; };
 		40F920DB1FBD256F00E4E0FE /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F920DA1FBD256F00E4E0FE /* UIView + Extension.swift */; };
+		40F920E71FBD85EC00E4E0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F920E61FBD85EC00E4E0FE /* AppDelegate.swift */; };
+		40F920E91FBD85EC00E4E0FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F920E81FBD85EC00E4E0FE /* ViewController.swift */; };
+		40F920EB1FBD85EC00E4E0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F920EA1FBD85EC00E4E0FE /* Assets.xcassets */; };
+		40F920EE1FBD85EC00E4E0FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F920EC1FBD85EC00E4E0FE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +27,24 @@
 		40F920BB1FBC8AF900E4E0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F920BC1FBC8AF900E4E0FE /* macDev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macDev.entitlements; sourceTree = "<group>"; };
 		40F920DA1FBD256F00E4E0FE /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		40F920E41FBD85EC00E4E0FE /* NSScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F920E61FBD85EC00E4E0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40F920E81FBD85EC00E4E0FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40F920EA1FBD85EC00E4E0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F920ED1FBD85EC00E4E0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40F920EF1FBD85EC00E4E0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F920F01FBD85EC00E4E0FE /* NSScrollViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSScrollViewDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		40F920AC1FBC8AF900E4E0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F920E11FBD85EC00E4E0FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +59,7 @@
 			children = (
 				40F920D91FBD249E00E4E0FE /* Extension */,
 				40F920B11FBC8AF900E4E0FE /* macDev */,
+				40F920E51FBD85EC00E4E0FE /* NSScrollViewDemo */,
 				40F920B01FBC8AF900E4E0FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				40F920AF1FBC8AF900E4E0FE /* macDev.app */,
+				40F920E41FBD85EC00E4E0FE /* NSScrollViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +94,19 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		40F920E51FBD85EC00E4E0FE /* NSScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				40F920E61FBD85EC00E4E0FE /* AppDelegate.swift */,
+				40F920E81FBD85EC00E4E0FE /* ViewController.swift */,
+				40F920EA1FBD85EC00E4E0FE /* Assets.xcassets */,
+				40F920EC1FBD85EC00E4E0FE /* Main.storyboard */,
+				40F920EF1FBD85EC00E4E0FE /* Info.plist */,
+				40F920F01FBD85EC00E4E0FE /* NSScrollViewDemo.entitlements */,
+			);
+			path = NSScrollViewDemo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +127,23 @@
 			productReference = 40F920AF1FBC8AF900E4E0FE /* macDev.app */;
 			productType = "com.apple.product-type.application";
 		};
+		40F920E31FBD85EC00E4E0FE /* NSScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F920F11FBD85EC00E4E0FE /* Build configuration list for PBXNativeTarget "NSScrollViewDemo" */;
+			buildPhases = (
+				40F920E01FBD85EC00E4E0FE /* Sources */,
+				40F920E11FBD85EC00E4E0FE /* Frameworks */,
+				40F920E21FBD85EC00E4E0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSScrollViewDemo;
+			productName = NSScrollViewDemo;
+			productReference = 40F920E41FBD85EC00E4E0FE /* NSScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -105,6 +155,10 @@
 				ORGANIZATIONNAME = ADDICE;
 				TargetAttributes = {
 					40F920AE1FBC8AF900E4E0FE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					40F920E31FBD85EC00E4E0FE = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -124,6 +178,7 @@
 			projectRoot = "";
 			targets = (
 				40F920AE1FBC8AF900E4E0FE /* macDev */,
+				40F920E31FBD85EC00E4E0FE /* NSScrollViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +190,15 @@
 			files = (
 				40F920B71FBC8AF900E4E0FE /* Assets.xcassets in Resources */,
 				40F920BA1FBC8AF900E4E0FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F920E21FBD85EC00E4E0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F920EB1FBD85EC00E4E0FE /* Assets.xcassets in Resources */,
+				40F920EE1FBD85EC00E4E0FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +215,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40F920E01FBD85EC00E4E0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F920E91FBD85EC00E4E0FE /* ViewController.swift in Sources */,
+				40F920E71FBD85EC00E4E0FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -158,6 +231,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				40F920B91FBC8AF900E4E0FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40F920EC1FBD85EC00E4E0FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F920ED1FBD85EC00E4E0FE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -301,6 +382,36 @@
 			};
 			name = Release;
 		};
+		40F920F21FBD85EC00E4E0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSScrollViewDemo/NSScrollViewDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ADDICE.NSScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		40F920F31FBD85EC00E4E0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSScrollViewDemo/NSScrollViewDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ADDICE.NSScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -318,6 +429,15 @@
 			buildConfigurations = (
 				40F920C01FBC8AF900E4E0FE /* Debug */,
 				40F920C11FBC8AF900E4E0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F920F11FBD85EC00E4E0FE /* Build configuration list for PBXNativeTarget "NSScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F920F21FBD85EC00E4E0FE /* Debug */,
+				40F920F31FBD85EC00E4E0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
