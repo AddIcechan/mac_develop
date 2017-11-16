@@ -16,6 +16,9 @@
 		40F920E91FBD85EC00E4E0FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F920E81FBD85EC00E4E0FE /* ViewController.swift */; };
 		40F920EB1FBD85EC00E4E0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F920EA1FBD85EC00E4E0FE /* Assets.xcassets */; };
 		40F920EE1FBD85EC00E4E0FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F920EC1FBD85EC00E4E0FE /* Main.storyboard */; };
+		40F920F51FBD867800E4E0FE /* UIScrollView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F920F41FBD867800E4E0FE /* UIScrollView + Extension.swift */; };
+		40F920F61FBD867800E4E0FE /* UIScrollView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F920F41FBD867800E4E0FE /* UIScrollView + Extension.swift */; };
+		40F920F71FBD867B00E4E0FE /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F920DA1FBD256F00E4E0FE /* UIView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,7 @@
 		40F920ED1FBD85EC00E4E0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40F920EF1FBD85EC00E4E0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F920F01FBD85EC00E4E0FE /* NSScrollViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSScrollViewDemo.entitlements; sourceTree = "<group>"; };
+		40F920F41FBD867800E4E0FE /* UIScrollView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				40F920DA1FBD256F00E4E0FE /* UIView + Extension.swift */,
+				40F920F41FBD867800E4E0FE /* UIScrollView + Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40F920B51FBC8AF900E4E0FE /* ViewController.swift in Sources */,
+				40F920F51FBD867800E4E0FE /* UIScrollView + Extension.swift in Sources */,
 				40F920B31FBC8AF900E4E0FE /* AppDelegate.swift in Sources */,
 				40F920DB1FBD256F00E4E0FE /* UIView + Extension.swift in Sources */,
 			);
@@ -219,6 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F920F71FBD867B00E4E0FE /* UIView + Extension.swift in Sources */,
+				40F920F61FBD867800E4E0FE /* UIScrollView + Extension.swift in Sources */,
 				40F920E91FBD85EC00E4E0FE /* ViewController.swift in Sources */,
 				40F920E71FBD85EC00E4E0FE /* AppDelegate.swift in Sources */,
 			);
