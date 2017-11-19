@@ -27,6 +27,10 @@ class ViewController: NSViewController {
         scrollView.horizontalScrollElasticity = .automatic
         scrollView.verticalScrollElasticity = .automatic
         
+        scrollView.contentInsets = NSEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        
+        scrollView.scrollerInsets = NSEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+        
         return scrollView
     }()
     
@@ -37,7 +41,6 @@ class ViewController: NSViewController {
         let contentView = NSView(frame: NSRect(x: 0, y: 0, width: 1000, height: 1000))
         contentView.backgroundColor = .yellow
         
-        bgScrollView.contentView.addSubview(contentView)
         bgScrollView.documentView = contentView
         
         // 因为 坐标系起点 是在 左下角。因此想要让内容 起点 在左上角。可以选择进行 滚动 到底部，即 scrollview.documentView?.scroll(xxx)。为此，扩展一个方法。
